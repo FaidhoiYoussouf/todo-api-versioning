@@ -14,3 +14,8 @@ API REST de gestion de tâches développée avec FastAPI, SQLite et SQLAlchemy.
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+## Auteur
+
+Youssouf Faidhoi
+Master 1 – Ingénierie Logicielle
