@@ -82,3 +82,8 @@ def supprimer_todo(todo_id: int, db: Session = Depends(get_db)):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=PORT, reload=True)
+
+
+@app.get("/health")
+def health():
+    return {"status": "OK"}
